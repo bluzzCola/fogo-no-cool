@@ -1,1 +1,1 @@
-# fogo-no-cool
+# Magnatech-squad
