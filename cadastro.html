@@ -21,9 +21,7 @@
 			<ul class="navbar">
 				<li><a class="nav-itens" href="index.html">Inicio</a></li>
 				<li><a class="nav-itens" href="">Sobre nós</a></li>
-				<li><a class="nav-itens" href="">Parceiros</a></li>
-				<li><a class="nav-itens" href="">Trabalhe Conosco</a></li>
-				<li><a class="nav-itens" href="suporte.html">Suporte</a></li>
+				<li><a class="nav-itens" href="agendamento.html">Agendamento</a></li>
 			</ul>
 			<a class="nav-btn" href="calculadora.html">Simulador Financeiro</a>
 
@@ -37,44 +35,59 @@
 		</div>
 	</div>
 
-    <div class="banner">
-        <div class="container">
-            <div class="card">
+       
 
-                <h2>Realize seu cadastro!</h2>
-                <div class="line">
+            <!--Inicio do card-->
+            <h2 class="titulo3">Realize seu cadastro!</h2>
+
+            <div class="card2">
+
+                
+                <div class="div1">
                     <span>
-                        <h4>Nome</h4>
-                        <input type="text" id="in_nome" placeholder="Insira um nome válido">
+                        <h4 class="texto2">Nome da Empresa</h4>
+                        <input type="text" id="in_nome" placeholder="Insira um nome válido" class="input">
                     </span>
+
                     <span>
-                        <h4>Razão Social</h4>
-                        <input type="text" id="in_razaoSocial" placeholder="Insira uma Razão social">
+                        <h4 class="texto2">Email</h4>
+                        <input type="email" id="in_email" placeholder="Insira um Email" class="input">
                     </span>
-                </div>
-                <div class="line">
+
                     <span>
-                        <h4>Email</h4>
-                        <input type="email" id="in_email" placeholder="Insira um Email">
+                        <h4 class="texto2">CNPJ</h4>
+                        <input type="text" id="in_cnpj" placeholder="Insira o CNPJ" class="input">
                     </span>
+
                     <span>
-                        <h4>CNPJ</h4>
-                        <input type="text" id="in_cnpj" placeholder="Insira o CNPJ">
-                    </span>
-                </div>
-                <div class="line">
-                    <span>
-                        <h4>Senha</h4>
-                        <input type="password" id="in_senha" placeholder="Insira a senha">
-                    </span>
-                    <span>
-                        <h4>Confirmar senha</h4>
-                        <input type="password" id="in_senhaConfirm" placeholder="Confirme a senha">
+                        <h4 class="texto2">Razão Social</h4>
+                        <input type="text" id="in_razaoSocial" placeholder="Insira uma Razão social" class="input">
                     </span>
                 </div>
-                <button class="btn" onclick="cadastrar()">Cadastrar</button>
+                   
+                    
+                
+
+                <div class="div2">
+                    <span>
+                        <h4 class="texto2">Senha</h4>
+                        <input type="password" id="in_senha" placeholder="Insira a senha" class="input">
+                    </span>
+                    <span>
+                        <h4 class="texto2">Confirmar senha</h4>
+                        <input type="password" id="in_senhaConfirm" placeholder="Confirme a senha" class="input">
+                    </span>
+
+                    <br>
+                    <br>
+                    <br>
+                    <button class="btn" onclick="cadastrar()">Cadastrar</button> 
+                    
+                </div>
+                
 
             </div>
+            
 
             <div id="div_aguardar" class="loading-div">
                 <img src="./assets/circle-loading.gif" id="loading-gif">
@@ -83,8 +96,7 @@
             <div id="div_erros_login">
 
             </div>
-        </div>
-    </div>
+       
 </body>
 
 </html>
